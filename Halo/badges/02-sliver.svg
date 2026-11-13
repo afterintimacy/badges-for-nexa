@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="Sliver">
+<title>Sliver</title>
+<defs><linearGradient id="tb1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".95"/><stop offset="1" stop-color="#d9e3f2" stop-opacity=".75"/></linearGradient>
+<clipPath id="ob1"><polygon points="64.0,12.0 120.0,110.0 8.0,110.0"/></clipPath><clipPath id="ib1"><polygon points="64.0,40.7 95.4,95.6 32.6,95.6"/></clipPath>
+<linearGradient id="sb1" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".8"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>
+<style>
+@keyframes fl{0%,100%{transform:translateY(1.5px)}50%{transform:translateY(-2.5px)}}
+@keyframes sw{0%,55%{transform:translateX(-80px)}100%{transform:translateX(200px)}}
+@keyframes tw{0%,100%{transform:scale(.2);opacity:0}50%{transform:scale(1);opacity:1}}
+.g{animation:fl 3.5s ease-in-out infinite}.sw{animation:sw 3.4s ease-in-out infinite}
+.tw{animation:tw 2.2s ease-in-out infinite;transform-box:view-box}
+@media (prefers-reduced-motion:reduce){.g,.sw,.tw{animation:none}.tw{opacity:1;transform:none}}
+</style>
+<g class="g"><polygon points="64.0,12.0 120.0,110.0 95.4,95.6 64.0,40.7" fill="#becfe2" stroke="#becfe2" stroke-width=".6" stroke-linejoin="round"/><polygon points="120.0,110.0 8.0,110.0 32.6,95.6 95.4,95.6" fill="#7c92c4" stroke="#7c92c4" stroke-width=".6" stroke-linejoin="round"/><polygon points="8.0,110.0 64.0,12.0 64.0,40.7 32.6,95.6" fill="#c5d5e5" stroke="#c5d5e5" stroke-width=".6" stroke-linejoin="round"/><polygon points="64.0,12.0 120.0,110.0 8.0,110.0" fill="none" stroke="#7293c0" stroke-width="1.6" stroke-linejoin="round"/><polygon points="64.0,40.7 95.4,95.6 32.6,95.6" fill="#ced9e9"/><polygon points="64.0,40.7 95.4,95.6 32.6,95.6" fill="url(#tb1)" stroke="#87a3c9" stroke-width="1.4" stroke-linejoin="round"/>
+<g clip-path="url(#ob1)"><rect class="sw" x="-20" y="-10" width="30" height="150" fill="url(#sb1)" transform="rotate(20 64 64)" opacity=".6"/></g></g>
+</svg>

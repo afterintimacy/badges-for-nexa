@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="Spire">
+<title>Spire</title>
+<defs><linearGradient id="tb2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".95"/><stop offset="1" stop-color="#d9e3f2" stop-opacity=".75"/></linearGradient>
+<clipPath id="ob2"><polygon points="64.0,6.0 100.0,28.0 100.0,100.0 64.0,122.0 28.0,100.0 28.0,28.0"/></clipPath><clipPath id="ib2"><polygon points="64.0,31.5 84.2,43.8 84.2,84.2 64.0,96.5 43.8,84.2 43.8,43.8"/></clipPath>
+<linearGradient id="sb2" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".8"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>
+<style>
+@keyframes fl{0%,100%{transform:translateY(1.5px)}50%{transform:translateY(-2.5px)}}
+@keyframes sw{0%,55%{transform:translateX(-80px)}100%{transform:translateX(200px)}}
+@keyframes tw{0%,100%{transform:scale(.2);opacity:0}50%{transform:scale(1);opacity:1}}
+.g{animation:fl 3.5s ease-in-out infinite}.sw{animation:sw 3.4s ease-in-out infinite}
+.tw{animation:tw 2.2s ease-in-out infinite;transform-box:view-box}
+@media (prefers-reduced-motion:reduce){.g,.sw,.tw{animation:none}.tw{opacity:1;transform:none}}
+</style>
+<g class="g"><polygon points="64.0,6.0 100.0,28.0 84.2,43.8 64.0,31.5" fill="#d4e1ec" stroke="#d4e1ec" stroke-width=".6" stroke-linejoin="round"/><polygon points="100.0,28.0 100.0,100.0 84.2,84.2 84.2,43.8" fill="#a6bad7" stroke="#a6bad7" stroke-width=".6" stroke-linejoin="round"/><polygon points="100.0,100.0 64.0,122.0 64.0,96.5 84.2,84.2" fill="#7e93c5" stroke="#7e93c5" stroke-width=".6" stroke-linejoin="round"/><polygon points="64.0,122.0 28.0,100.0 43.8,84.2 64.0,96.5" fill="#8196c6" stroke="#8196c6" stroke-width=".6" stroke-linejoin="round"/><polygon points="28.0,100.0 28.0,28.0 43.8,43.8 43.8,84.2" fill="#afc2db" stroke="#afc2db" stroke-width=".6" stroke-linejoin="round"/><polygon points="28.0,28.0 64.0,6.0 64.0,31.5 43.8,43.8" fill="#d7e3ed" stroke="#d7e3ed" stroke-width=".6" stroke-linejoin="round"/><polygon points="64.0,6.0 100.0,28.0 100.0,100.0 64.0,122.0 28.0,100.0 28.0,28.0" fill="none" stroke="#7293c0" stroke-width="1.6" stroke-linejoin="round"/><polygon points="64.0,31.5 84.2,43.8 84.2,84.2 64.0,96.5 43.8,84.2 43.8,43.8" fill="#ced9e9"/><polygon points="64.0,31.5 84.2,43.8 84.2,84.2 64.0,96.5 43.8,84.2 43.8,43.8" fill="url(#tb2)" stroke="#87a3c9" stroke-width="1.4" stroke-linejoin="round"/>
+<g clip-path="url(#ob2)"><rect class="sw" x="-20" y="-10" width="30" height="150" fill="url(#sb2)" transform="rotate(20 64 64)" opacity=".6"/></g></g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="Lumine Prime">
+<title>Lumine Prime</title>
+<defs><linearGradient id="tb8" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".95"/><stop offset="1" stop-color="#d9e3f2" stop-opacity=".75"/></linearGradient>
+<clipPath id="ob8"><polygon points="28.0,20.0 100.0,20.0 124.0,50.0 64.0,120.0 4.0,50.0"/></clipPath><clipPath id="ib8"><polygon points="43.8,34.1 84.2,34.1 97.6,50.9 64.0,90.1 30.4,50.9"/></clipPath>
+<linearGradient id="sb8" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".8"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>
+<style>
+@keyframes fl{0%,100%{transform:translateY(1.5px)}50%{transform:translateY(-2.5px)}}
+@keyframes sw{0%,55%{transform:translateX(-80px)}100%{transform:translateX(200px)}}
+@keyframes tw{0%,100%{transform:scale(.2);opacity:0}50%{transform:scale(1);opacity:1}}
+.g{animation:fl 3.5s ease-in-out infinite}.sw{animation:sw 3.4s ease-in-out infinite}
+.tw{animation:tw 2.2s ease-in-out infinite;transform-box:view-box}
+@media (prefers-reduced-motion:reduce){.g,.sw,.tw{animation:none}.tw{opacity:1;transform:none}}
+</style>
+<g class="g"><polygon points="28.0,20.0 100.0,20.0 84.2,34.1 43.8,34.1" fill="#d9e4ee" stroke="#d9e4ee" stroke-width=".6" stroke-linejoin="round"/><polygon points="100.0,20.0 124.0,50.0 97.6,50.9 84.2,34.1" fill="#b6c8de" stroke="#b6c8de" stroke-width=".6" stroke-linejoin="round"/><polygon points="124.0,50.0 64.0,120.0 64.0,90.1 97.6,50.9" fill="#869bc8" stroke="#869bc8" stroke-width=".6" stroke-linejoin="round"/><polygon points="64.0,120.0 4.0,50.0 30.4,50.9 64.0,90.1" fill="#8ba1cb" stroke="#8ba1cb" stroke-width=".6" stroke-linejoin="round"/><polygon points="4.0,50.0 28.0,20.0 43.8,34.1 30.4,50.9" fill="#becfe2" stroke="#becfe2" stroke-width=".6" stroke-linejoin="round"/><polygon points="28.0,20.0 100.0,20.0 124.0,50.0 64.0,120.0 4.0,50.0" fill="none" stroke="#7293c0" stroke-width="1.6" stroke-linejoin="round"/><polygon points="43.8,34.1 84.2,34.1 97.6,50.9 64.0,90.1 30.4,50.9" fill="#ced9e9"/><polygon points="43.8,34.1 84.2,34.1 97.6,50.9 64.0,90.1 30.4,50.9" fill="url(#tb8)" stroke="#87a3c9" stroke-width="1.4" stroke-linejoin="round"/><g clip-path="url(#ib8)" opacity=".85"><rect x="-6.0" y="37.0" width="140" height="10" fill="#fff" transform="rotate(-38 64.0 52.0)"/></g>
+<g clip-path="url(#ob8)"><rect class="sw" x="-20" y="-10" width="30" height="150" fill="url(#sb8)" transform="rotate(20 64 64)" opacity=".6"/></g><path class="tw" style="animation-delay:0s;transform-origin:18px 18px" fill="#ffd23f" d="M18,8 Q18,18 28,18 Q18,18 18,28 Q18,18 8,18 Q18,18 18,8Z"/><path class="tw" style="animation-delay:0.9s;transform-origin:106px 102px" fill="#bfe0ff" d="M106,92 Q106,102 116,102 Q106,102 106,112 Q106,102 96,102 Q106,102 106,92Z"/><path class="tw" style="animation-delay:1.5s;transform-origin:112px 20px" fill="#ffd23f" d="M112,14 Q112,20 118,20 Q112,20 112,26 Q112,20 106,20 Q112,20 112,14Z"/></g>
+</svg>
